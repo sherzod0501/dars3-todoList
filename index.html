@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>To Do App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">What needs to be done ?</h1>
+        <form class="form d-flex">
+            <input type="text" class=" input todo-maker form-control me-3" placeholder="type here..." required>
+            <button type="submit" class=" button btn btn-success text-nowrap">ADD TODO</button>
+        </form>
+        <ul class="list-group mt-5">
+            <!-- <div>
+                 <li class="list-group-item d-flex align-items-center">
+                    <input type="checkbox" class="form-check-input me-2">
+                    <div class="text w-100">An item</div>
+                    <div class="d-flex gap-1">
+                        <button class="btn btn-warning">edit</button>
+                        <button class="btn btn-danger">delete</button>
+                    </div>
+                </li>
+            </div> -->
+
+        </ul>
+        <div class="div">
+            <button class="btn-All">All<span class="all-count"> 0</span></button>
+            <button class="btn-completed">Completed<span class="completed-count"> 0</span></button>
+            <button class="btn-uncompleted">Uncompleted<span class="uncompleted-count"> 0</span></button>
+        </div>
+    </div>
+    <!--container end-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
